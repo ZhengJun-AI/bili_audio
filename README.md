@@ -71,7 +71,7 @@ yarn build
 
 ### 一键部署
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/your-username/bili-audio-downloader)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/ZhengJun-AI/bili_audio)
 
 ### 手动部署
 

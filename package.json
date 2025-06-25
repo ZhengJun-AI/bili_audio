@@ -3,6 +3,15 @@
   "version": "1.0.0",
   "description": "A lightweight Bilibili audio downloader built with Next.js and Vercel",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ZhengJun-AI/bili_audio.git"
+  },
+  "homepage": "https://github.com/ZhengJun-AI/bili_audio",
+  "bugs": {
+    "url": "https://github.com/ZhengJun-AI/bili_audio/issues"
+  },
+  "author": "ZhengJun-AI",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

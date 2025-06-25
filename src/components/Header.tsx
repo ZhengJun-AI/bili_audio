@@ -26,7 +26,7 @@ export default function Header() {
         <div className="flex items-center gap-2">
           <Github className="w-4 h-4" />
           <a 
-            href="https://github.com/your-username/bili-audio-downloader" 
+            href="https://github.com/ZhengJun-AI/bili_audio" 
             target="_blank" 
             rel="noopener noreferrer"
             className="hover:text-bili-pink transition-colors"

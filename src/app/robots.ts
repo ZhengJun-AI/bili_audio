@@ -7,8 +7,8 @@ export default function robots(): MetadataRoute.Robots {
     rules: [
       {
         userAgent: '*',
-        allow: '/',
-        disallow: ['/api/', '/admin/', '/_next/'],
+        allow: ['/', '/_vercel/'],
+        disallow: ['/api/', '/admin/'],
         crawlDelay: 1,
       },
       {

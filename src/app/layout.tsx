@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
 import { Analytics } from '@vercel/analytics/next';
+import type { Metadata } from 'next'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -133,7 +134,7 @@ export default function RootLayout({
         <div className="min-h-screen bg-gradient-to-br from-blue-50 to-pink-50">
           {children}
         </div>
-        <Analytics mode="production" />
+        <Analytics debug={process.env.NODE_ENV === 'development'} />
       </body>
     </html>
   )

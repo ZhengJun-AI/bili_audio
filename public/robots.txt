@@ -10,6 +10,9 @@ Crawl-delay: 1
 # Disallow crawling of API endpoints to prevent unnecessary load
 Disallow: /api/
 
+# Allow Vercel Analytics
+Allow: /_vercel/
+
 # Allow crawling of static assets
 Allow: /favicon.ico
 Allow: /*.css
